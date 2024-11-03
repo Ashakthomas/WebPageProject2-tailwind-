@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.container{
+    position: relative;
+    /* border: solid 2px; */
+}
+.navbar{
+    /* border: solid; */
+    width: 100%;
+    height: 500px ;
+}
+.logo_text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.logo {
+    display:flex ;
+    justify-content:center;
+    width: 600px;
+    height: 100px;
+    /* border: solid 1px; */
+    /* display: inline-flex; */
+    align-items: center;
+    margin-left: 240px;
+    /* padding-left: 200px; */
+   
+}
+
+.cartImg{
+    width: 3%;
+    height: 10%;
+    /* border: solid 2px; */
+    margin-left: 40rem;
+    /* margin-top: 0%; */
+}
+.LandingCouch{
+    
+    /* position: absolute; */
+
+    /* border: solid 2px; */
+    padding-left: 10%;
+    margin-top: -280px;
+
+}
+#about{
+    /* border: solid 1px; */
+    
+    margin-top: 3%;
+    
+}
+.sec-about{
+    display: flex;
+    /* justify-content: space-a; */
+}
+
+.icons {
+    display: flex;
+    gap: 90px; /* Adjust spacing between each icon container */
+    margin: 70px 150px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.singleicone {
+    width: 100px; 
+    height: 100px; 
+    display: flex;
+    padding-top: 2.4rem;
+    padding-left: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    border: solid 8px rgb(239, 178, 23); 
+    border-radius: 50%; 
+    color: rgb(239, 178, 23);
+}
+
+.icontext {
+    margin-top: 10px; /* Space between icon and text */
+    font-size: 14px; /* Adjust font size as needed */
+}
+.iconheading{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#partners { 
+    margin-top: 4%;
+    /* border: solid 1px; */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+.patimg {
+    padding: 25px 2.5rem;
+    /* border: solid 1px; */
+    border-radius: 15%;
+    margin: 0px 2.3rem;
+    box-shadow: 0 24px 8px rgba(0, 0, 0, 0.2);
+}
+.pathead{
+    color: rgb(239, 178, 23);
+}
+#table{
+    margin-top: 25%;
+    /* border: solid 1px; */
+}
+.tableimg{
+    margin-bottom: 560px;
+    /* border: solid; */
+    width: 25%;
+    margin-left: 50.5rem;
+}
+.tablecontent{
+    margin-bottom: 5%;
+    width: 100%;
+    /* border: solid 1px; */
+    margin-left: 200px;
+}
+.greenblock{
+    /* border: solid 1px; */
+    width: 100%;
+    height: 100px;
+    background-color: rgb(9, 56, 9);
+}
+/* .circle::before {
+    margin-left: 95% ;
+    content: "";
+    border: solid 3px rgb(239, 178, 23); 
+    border-radius: 50%; 
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    color: rgb(239, 178, 23); 
+    text-align: center;
+    line-height: 100px;
+} */
+
+#connect{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lampimg{
+    
+    height: 100%;
+}
+
+.connnectform{
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    border: solid 4px;
+    width: 400px;
+    height: 460px;
+    margin-top: 50px;
+    border-radius: 6%;
+
+}
+.formheading{
+    color: rgb(107, 99, 99);
+}
+.textborder{
+    border: solid 3px rgb(222, 210, 41);
+    border-radius: 5%;
+    width: 90%;
+}
+#formmainhead{
+    font-weight: 600;
+    font-size: x-large
+}
+footer{
+    margin-top: 2%;
+    text-align: center;
+    /* border: solid; */
+}
